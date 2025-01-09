@@ -63,19 +63,19 @@ public class BSIN2DSA {
             return new int[]{rstart+1,cmid};
         }
         //search in the first part
-        if(target <= matrix[rstart][cmid-1] ){
+        if(cmid>0 && target <= matrix[rstart][cmid-1] ){
             return binarysearch(matrix,rstart,0,cmid-1,target);
         }
         //search in the second half
-        if(target >= matrix[rstart][cmid + 1] &&target <=matrix[rstart][cols - 1]){
+        if(cmid+1<cols && target >= matrix[rstart][cmid + 1] &&target <=matrix[rstart][cols - 1]){
             return binarysearch(matrix,rstart,cmid+1,cols-1,target);
         }
         //search in the third half
-        if(target <= matrix[rstart+1][cmid-1]){
+        if(cmid>0 && target <= matrix[rstart+1][cmid-1]){
             return binarysearch(matrix,rstart+1,0,cmid-1,target);
         }
         //search in the fourth half
-        if(target >= matrix[rstart][cmid+1] && target <= matrix[rstart+1][cols-1]){
+        if(cmid+1<cols && target >= matrix[rstart][cmid+1] && target <= matrix[rstart+1][cols-1]){
             return binarysearch(matrix,rstart+1,cmid+1,cols-1,target);
         }
         return new int[]{-1,-1};
