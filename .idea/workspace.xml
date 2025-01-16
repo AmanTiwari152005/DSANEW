@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc0acb99-0b92-4cc6-8016-778713a1d6c4" name="Changes" comment="Cyclic Sort">
+    <list default="true" id="fc0acb99-0b92-4cc6-8016-778713a1d6c4" name="Changes" comment="leetcode 268-Missing Number">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     "Application.FairCandySwap.executor": "Run",
     "Application.KokoEB.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.Missingnumber.executor": "Run",
+    "Application.Missingnumber.executor": "Debug",
     "Application.SearchInsertPosition.executor": "Run",
     "Application.Selectionsort.executor": "Run",
     "Application.Shipment.executor": "Debug",
@@ -54,6 +53,7 @@
     "Application.squareroot.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/Lenovo/IdeaProjects/DSA/src/Main.java"
@@ -257,7 +257,31 @@
       <option name="project" value="LOCAL" />
       <updated>1737038736029</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="leetcode 268-Missing Number">
+      <option name="closed" value="true" />
+      <created>1737041686410</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1737041686410</updated>
+    </task>
+    <task id="LOCAL-00022" summary="leetcode 268-Missing Number">
+      <option name="closed" value="true" />
+      <created>1737041785301</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1737041785301</updated>
+    </task>
+    <task id="LOCAL-00023" summary="leetcode 268-Missing Number">
+      <option name="closed" value="true" />
+      <created>1737041862700</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1737041862700</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -279,7 +303,8 @@
     <MESSAGE value="leetcode 540-Single Element in a Sorted Array" />
     <MESSAGE value="leetcode 2206-Divide the array into Equal Parts" />
     <MESSAGE value="Cyclic Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cyclic Sort" />
+    <MESSAGE value="leetcode 268-Missing Number" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode 268-Missing Number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
