@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc0acb99-0b92-4cc6-8016-778713a1d6c4" name="Changes" comment="1011-capacity to ship package within D-days">
+    <list default="true" id="fc0acb99-0b92-4cc6-8016-778713a1d6c4" name="Changes" comment="Cyclic Sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +37,20 @@
   "keyToString": {
     "Application.BSIN2DSA.executor": "Run",
     "Application.BubbleSort.executor": "Run",
+    "Application.CountNegative.executor": "Run",
+    "Application.Cyclicsort.executor": "Run",
+    "Application.DivideArray.executor": "Run",
+    "Application.FairCandySwap.executor": "Run",
     "Application.KokoEB.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Missingnumber.executor": "Run",
     "Application.SearchInsertPosition.executor": "Run",
+    "Application.Selectionsort.executor": "Run",
     "Application.Shipment.executor": "Debug",
+    "Application.SingleElement.executor": "Run",
+    "Application.TwoSum2.executor": "Run",
     "Application.ValidPS.executor": "Run",
+    "Application.insertionSort.executor": "Run",
     "Application.squareroot.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,6 +60,13 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="CountNegative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountNegative" />
+      <module name="DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Shipment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Shipment" />
       <module name="DSA" />
@@ -58,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountNegative" />
         <item itemvalue="Application.Shipment" />
       </list>
     </recent_temporary>
@@ -150,7 +169,95 @@
       <option name="project" value="LOCAL" />
       <updated>1736532992455</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="bubble Sort Technique">
+      <option name="closed" value="true" />
+      <created>1736603078468</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736603078468</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Selection sort">
+      <option name="closed" value="true" />
+      <created>1736691505436</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736691505436</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1351-Count Negative Numbers in a matrix">
+      <option name="closed" value="true" />
+      <created>1736702871072</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736702871072</updated>
+    </task>
+    <task id="LOCAL-00013" summary="leetcode 167-Two Sum 2">
+      <option name="closed" value="true" />
+      <created>1736755398345</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1736755398345</updated>
+    </task>
+    <task id="LOCAL-00014" summary="leetcode 888- Fair Candy Swap">
+      <option name="closed" value="true" />
+      <created>1736774991413</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1736774991413</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1346-Check if N &amp; it's double Exist">
+      <option name="closed" value="true" />
+      <created>1736783009973</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1736783009973</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Insertion Sort">
+      <option name="closed" value="true" />
+      <created>1736859929112</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1736859929112</updated>
+    </task>
+    <task id="LOCAL-00017" summary="leetcode 1608-Special Array with X elements greater than or equal to X">
+      <option name="closed" value="true" />
+      <created>1736867397186</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1736867397186</updated>
+    </task>
+    <task id="LOCAL-00018" summary="leetcode 540-Single Element in a Sorted Array">
+      <option name="closed" value="true" />
+      <created>1736874772880</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1736874772880</updated>
+    </task>
+    <task id="LOCAL-00019" summary="leetcode 2206-Divide the array into Equal Parts">
+      <option name="closed" value="true" />
+      <created>1736963353198</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1736963353198</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Cyclic Sort">
+      <option name="closed" value="true" />
+      <created>1737038736029</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1737038736029</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,6 +268,28 @@
     <MESSAGE value="Valid Perfect Square" />
     <MESSAGE value="search insert position" />
     <MESSAGE value="1011-capacity to ship package within D-days" />
-    <option name="LAST_COMMIT_MESSAGE" value="1011-capacity to ship package within D-days" />
+    <MESSAGE value="bubble Sort Technique" />
+    <MESSAGE value="Selection sort" />
+    <MESSAGE value="1351-Count Negative Numbers in a matrix" />
+    <MESSAGE value="leetcode 167-Two Sum 2" />
+    <MESSAGE value="leetcode 888- Fair Candy Swap" />
+    <MESSAGE value="1346-Check if N &amp; it's double Exist" />
+    <MESSAGE value="Insertion Sort" />
+    <MESSAGE value="leetcode 1608-Special Array with X elements greater than or equal to X" />
+    <MESSAGE value="leetcode 540-Single Element in a Sorted Array" />
+    <MESSAGE value="leetcode 2206-Divide the array into Equal Parts" />
+    <MESSAGE value="Cyclic Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cyclic Sort" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CountNegative.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
