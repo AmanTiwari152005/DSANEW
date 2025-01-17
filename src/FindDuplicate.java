@@ -1,3 +1,4 @@
+//asked in Amazon
 //leetcode question number 287(medium)
 public class FindDuplicate {
     public static void main(String[] args) {
