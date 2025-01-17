@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc0acb99-0b92-4cc6-8016-778713a1d6c4" name="Changes" comment="leetcode 448-Find all missing numbers">
+    <list default="true" id="fc0acb99-0b92-4cc6-8016-778713a1d6c4" name="Changes" comment="leetcode 287-Find the Duplicate Number">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
     </list>
@@ -40,6 +40,7 @@
     "Application.Cyclicsort.executor": "Run",
     "Application.DivideArray.executor": "Run",
     "Application.FairCandySwap.executor": "Run",
+    "Application.FindAllDuplicate.executor": "Run",
     "Application.FindDuplicate.executor": "Run",
     "Application.KokoEB.executor": "Run",
     "Application.Main.executor": "Run",
@@ -290,7 +291,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737051206262</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="leetcode 287-Find the Duplicate Number">
+      <option name="closed" value="true" />
+      <created>1737126760276</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1737126760276</updated>
+    </task>
+    <task id="LOCAL-00026" summary="leetcode 287-Find the Duplicate Number">
+      <option name="closed" value="true" />
+      <created>1737126832062</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1737126832062</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -314,7 +331,8 @@
     <MESSAGE value="Cyclic Sort" />
     <MESSAGE value="leetcode 268-Missing Number" />
     <MESSAGE value="leetcode 448-Find all missing numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode 448-Find all missing numbers" />
+    <MESSAGE value="leetcode 287-Find the Duplicate Number" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode 287-Find the Duplicate Number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
