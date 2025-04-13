@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Find {
     public static void main(String[] args) {
         int [] arr={5,9,7,12,85};
@@ -23,4 +25,7 @@ public class Find {
             }
         }
     }
+
+
+
 

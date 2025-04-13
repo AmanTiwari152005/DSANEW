@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc0acb99-0b92-4cc6-8016-778713a1d6c4" name="Changes" comment="leetcode 287-Find the Duplicate Number">
+    <list default="true" id="fc0acb99-0b92-4cc6-8016-778713a1d6c4" name="Changes" comment="Linear Search using recursion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cyclicsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cyclicsort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Find.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,22 +38,37 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BSIN2DSA.executor": "Run",
+    "Application.BSR.executor": "Run",
     "Application.BubbleSort.executor": "Run",
     "Application.CountNegative.executor": "Run",
+    "Application.Countsteps.executor": "Run",
+    "Application.Countzero.executor": "Run",
     "Application.Cyclicsort.executor": "Run",
+    "Application.DigitSum.executor": "Run",
     "Application.DivideArray.executor": "Run",
     "Application.FairCandySwap.executor": "Run",
+    "Application.Fibonacci.executor": "Debug",
+    "Application.Find.executor": "Run",
     "Application.FindAllDuplicate.executor": "Run",
     "Application.FindDuplicate.executor": "Run",
     "Application.KokoEB.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MaximumPairs.executor": "Run",
+    "Application.MinMaxGame.executor": "Run",
     "Application.Missingnumber.executor": "Debug",
+    "Application.RBS.executor": "Run",
+    "Application.Reversenumber.executor": "Run",
     "Application.SearchInsertPosition.executor": "Run",
     "Application.Selectionsort.executor": "Run",
+    "Application.Setmismatch.executor": "Run",
     "Application.Shipment.executor": "Debug",
     "Application.SingleElement.executor": "Run",
+    "Application.Sorted.executor": "Run",
+    "Application.Sortstringbyfre.executor": "Run",
+    "Application.Stringhalvesalike.executor": "Run",
     "Application.TwoSum2.executor": "Run",
     "Application.ValidPS.executor": "Run",
+    "Application.factorial.executor": "Run",
     "Application.insertionSort.executor": "Run",
     "Application.squareroot.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -61,16 +79,37 @@
     "onboarding.tips.debug.path": "C:/Users/Lenovo/IdeaProjects/DSA/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="CountNegative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountNegative" />
+  <component name="RunManager" selected="Application.RBS">
+    <configuration name="BSR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BSR" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shipment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Shipment" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fibonacci" />
+      <module name="DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Find" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Find" />
+      <module name="DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RBS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RBS" />
+      <module name="DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorted" />
       <module name="DSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,8 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountNegative" />
-        <item itemvalue="Application.Shipment" />
+        <item itemvalue="Application.RBS" />
+        <item itemvalue="Application.Find" />
+        <item itemvalue="Application.Sorted" />
+        <item itemvalue="Application.BSR" />
+        <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -307,32 +349,212 @@
       <option name="project" value="LOCAL" />
       <updated>1737126832062</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="leetcode 442-Find All Duplicate Elements">
+      <option name="closed" value="true" />
+      <created>1737128607537</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1737128607537</updated>
+    </task>
+    <task id="LOCAL-00028" summary="leetcode 645-Set Mismatch">
+      <option name="closed" value="true" />
+      <created>1737222203297</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1737222203297</updated>
+    </task>
+    <task id="LOCAL-00029" summary="leetcode 2341-Maximum Number of Pairs in Array">
+      <option name="closed" value="true" />
+      <created>1737307037169</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1737307037169</updated>
+    </task>
+    <task id="LOCAL-00030" summary="leetcode 2357-Make Array Zero by Subtracting Equal Amounts">
+      <option name="closed" value="true" />
+      <created>1737392214728</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1737392214728</updated>
+    </task>
+    <task id="LOCAL-00031" summary="leetcode 2293-Min Max Game">
+      <option name="closed" value="true" />
+      <created>1737441994551</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1737441994551</updated>
+    </task>
+    <task id="LOCAL-00032" summary="leetcode 41-First Missing Number">
+      <option name="closed" value="true" />
+      <created>1737558844666</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1737558844666</updated>
+    </task>
+    <task id="LOCAL-00033" summary="leetcode 145-Palindrome Or Not">
+      <option name="closed" value="true" />
+      <created>1737631512860</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1737631512860</updated>
+    </task>
+    <task id="LOCAL-00034" summary="leetcode 1502- Can Make Arithmetic Progression From Sequence">
+      <option name="closed" value="true" />
+      <created>1737728016556</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1737728016556</updated>
+    </task>
+    <task id="LOCAL-00035" summary="leetcode 1636- Sort Array by Increasing Frequency">
+      <option name="closed" value="true" />
+      <created>1737791723938</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1737791723938</updated>
+    </task>
+    <task id="LOCAL-00036" summary="leetcode 451- Sort Characters By Frequency">
+      <option name="closed" value="true" />
+      <created>1737906145594</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1737906145594</updated>
+    </task>
+    <task id="LOCAL-00037" summary="leetcode 88 -Merge Sorted Array">
+      <option name="closed" value="true" />
+      <created>1737990846567</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1737990846567</updated>
+    </task>
+    <task id="LOCAL-00038" summary="leetcode 15- 3Sum">
+      <option name="closed" value="true" />
+      <created>1738088663598</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1738088663598</updated>
+    </task>
+    <task id="LOCAL-00039" summary="leetcode 1704-Determine if String Halves Are Alike">
+      <option name="closed" value="true" />
+      <created>1738251358286</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1738251358286</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Fibonacci sequence">
+      <option name="closed" value="true" />
+      <created>1742829733614</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1742829733614</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Binary Search using recursion">
+      <option name="closed" value="true" />
+      <created>1742929703690</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1742929703690</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Factorial of n">
+      <option name="closed" value="true" />
+      <created>1743946734565</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1743946734565</updated>
+    </task>
+    <task id="LOCAL-00043" summary="sum of numbers">
+      <option name="closed" value="true" />
+      <created>1743948890751</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1743948890751</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Reverse a number">
+      <option name="closed" value="true" />
+      <created>1743952667465</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1743952667465</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Count number of zero in digit">
+      <option name="closed" value="true" />
+      <created>1743952958979</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1743952958979</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Count number of steps required to reduce a number to zero">
+      <option name="closed" value="true" />
+      <created>1743954573786</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1743954573786</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Check whether the array is sorted or not">
+      <option name="closed" value="true" />
+      <created>1744340477899</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1744340477899</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Linear Search using recursion">
+      <option name="closed" value="true" />
+      <created>1744341880596</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1744341880596</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="..." />
-    <MESSAGE value="binary search in 2d sorted array" />
-    <MESSAGE value="square root" />
-    <MESSAGE value="koko eating bananas lc 875" />
-    <MESSAGE value="Valid Perfect Square" />
-    <MESSAGE value="search insert position" />
-    <MESSAGE value="1011-capacity to ship package within D-days" />
-    <MESSAGE value="bubble Sort Technique" />
-    <MESSAGE value="Selection sort" />
-    <MESSAGE value="1351-Count Negative Numbers in a matrix" />
-    <MESSAGE value="leetcode 167-Two Sum 2" />
-    <MESSAGE value="leetcode 888- Fair Candy Swap" />
-    <MESSAGE value="1346-Check if N &amp; it's double Exist" />
-    <MESSAGE value="Insertion Sort" />
-    <MESSAGE value="leetcode 1608-Special Array with X elements greater than or equal to X" />
-    <MESSAGE value="leetcode 540-Single Element in a Sorted Array" />
-    <MESSAGE value="leetcode 2206-Divide the array into Equal Parts" />
-    <MESSAGE value="Cyclic Sort" />
     <MESSAGE value="leetcode 268-Missing Number" />
     <MESSAGE value="leetcode 448-Find all missing numbers" />
     <MESSAGE value="leetcode 287-Find the Duplicate Number" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode 287-Find the Duplicate Number" />
+    <MESSAGE value="leetcode 442-Find All Duplicate Elements" />
+    <MESSAGE value="leetcode 645-Set Mismatch" />
+    <MESSAGE value="leetcode 2341-Maximum Number of Pairs in Array" />
+    <MESSAGE value="leetcode 2357-Make Array Zero by Subtracting Equal Amounts" />
+    <MESSAGE value="leetcode 2293-Min Max Game" />
+    <MESSAGE value="leetcode 41-First Missing Number" />
+    <MESSAGE value="leetcode 145-Palindrome Or Not" />
+    <MESSAGE value="leetcode 1502- Can Make Arithmetic Progression From Sequence" />
+    <MESSAGE value="leetcode 1636- Sort Array by Increasing Frequency" />
+    <MESSAGE value="leetcode 451- Sort Characters By Frequency" />
+    <MESSAGE value="leetcode 88 -Merge Sorted Array" />
+    <MESSAGE value="leetcode 15- 3Sum" />
+    <MESSAGE value="leetcode 1704-Determine if String Halves Are Alike" />
+    <MESSAGE value="Fibonacci sequence" />
+    <MESSAGE value="Binary Search using recursion" />
+    <MESSAGE value="Factorial of n" />
+    <MESSAGE value="sum of numbers" />
+    <MESSAGE value="Reverse a number" />
+    <MESSAGE value="Count number of zero in digit" />
+    <MESSAGE value="Count number of steps required to reduce a number to zero" />
+    <MESSAGE value="Check whether the array is sorted or not" />
+    <MESSAGE value="Linear Search using recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linear Search using recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
